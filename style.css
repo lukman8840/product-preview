@@ -1,0 +1,138 @@
+body{
+    font-family: 'Fraunces', serif;
+    font-size: 15px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: hsl(30, 38%, 92%);
+}
+.main{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    border-radius: 100px;
+}
+.container{
+    width: 610px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: none;
+}
+
+img{
+    width: 50%;
+    height: auto;
+    align-items: center;
+    justify-content: center;   
+}
+.left-container{
+    padding: 40px;
+    width: 500px;
+    height: 380px;
+    align-items: center;
+    color: hsl(158, 36%, 37%);
+    background-color: hsl(0, 0%, 100%);
+    justify-content: center;
+
+}
+.left-container h1{
+    font-size: 30px;
+    color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-bottom: 30px;
+}
+.text{
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.big-amount{
+    font-size: 24px;
+    font-weight: bold;
+    color:hsl(158, 36%, 37%);
+    margin-right: 20px;
+}
+.small-amount{
+    font-size: 14px;
+    text-decoration: line-through;
+    color:hsl(228, 12%, 48%) ;
+}
+.cart{
+    margin: 20px;
+}
+button{
+    padding: 10px 32px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    background-color:hsl(158, 36%, 37%); ;
+}
+.left-container p{
+    font-size: 14px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-decoration: dashed;
+}
+
+
+
+
+
+
+@media screen and (max-width: 645px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    img{
+        width: 320px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-container{
+     padding: 10px;
+    width: 300px;
+    height: 380px;
+    align-items: center;
+    color: hsl(158, 36%, 37%);
+    background-color: hsl(0, 0%, 100%);
+    }
+    .left-container p{
+        font-size: 24px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
